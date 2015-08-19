@@ -1,0 +1,361 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	position: fixed;
+	top: 0px;
+	background-color: #383838;
+}
+
+p { 
+	text-indent: 5em;
+	clear: none;
+}
+
+.jumbotron { 
+	min-height: 100%;
+	min-height:100%;
+	margin: 0px;
+  	background: url(http://i12.photobucket.com/albums/a217/awelsh7/20150626_132619_zpshpy75pkr.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#banner {
+	color: white;
+	font-family: Arial, sans-serif;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px 10px;
+	position: fixed;
+	top: 35%;
+	left:40%;
+}
+
+#menu-icon {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	background-color:black;
+	width: 100%;
+	cursor: pointer;
+}
+
+.menu {
+	position: fixed;
+	top: -60px;
+	width: 100%;
+	height: 60px;
+	background-image: url("http://i12.photobucket.com/albums/a217/awelsh7/PaperArtist_2015-07-27_18-04-44_zpsbw48or7q.jpeg");
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover; 
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+.menu li {
+	display: inline-block;
+	cursor: pointer;
+	margin: 0;
+	padding: 0 15px;
+	font-size: 1.5em;
+	height: 100%;
+	line-height: 60px;
+}
+
+.menu a {
+	text-decoration: none;
+	height: 100%;
+	color: white;
+}
+
+.menu li:hover {
+	text-decoration: none;
+	background-color: black;
+}
+
+.about_container {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.about_box {
+	margin: 50px 0 0 150px;
+	padding: 0;
+	position: absolute;
+}
+
+.about_info {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 60px;
+	left: 460px;
+	width: 60%;
+}
+
+.about_box ul, .about_info ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.about_box li {
+	border-radius: 4px;
+	width: 300px;
+	height: 150px;
+	max-width: 300px;
+	max-height: 150px;
+	padding: 5px 0px 0px 10px;
+	font-family: Arial, sans-serif;
+	color: white;
+	margin: 5px 0px;
+	cursor: pointer;
+}
+
+.about_info li {
+	background-color: black;
+	height: 125px;
+	max-height: 125px;
+	color: white;
+	font-family: Arial, sans-serif;
+	margin: 0px 0px 15px 0px;
+	padding: 10px;
+	cursor: pointer;
+	position: relative;
+}
+
+#a_etc, #a_me, #a_contact {
+	background: url("http://i12.photobucket.com/albums/a217/awelsh7/PaperArtist_2015-07-27_18-05-03_zpsiba10lve.jpeg") no-repeat center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#a_etc_info, #a_me_info, #a_contact_info {
+	visibility: hidden;
+}
+
+#a_contact_info a {
+	text-decoration: none;
+	font-size: 2em;
+	text-align: center;
+}
+
+#a_etc:hover, #a_me:hover, #a_contact:hover {
+	background: url("http://i12.photobucket.com/albums/a217/awelsh7/PaperArtist_2015-07-27_18-05-36_zpsogghgk8m.jpeg") no-repeat center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	font-size: 10px;
+}
+
+#game_bg {
+	background: url("http://i12.photobucket.com/albums/a217/awelsh7/PaperArtist_2015-07-27_16-57-48_zpsbaf3w9qt.jpeg") no-repeat center center fixed;
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0px;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#bezzerwizzer_bg {
+	background: url("http://i12.photobucket.com/albums/a217/awelsh7/bezzerwizzer_zpsnv5v561m.jpg") no-repeat center center fixed;
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0px;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+
+.nav {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	background-color:black;
+	width: 250px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 20px;
+	opacity: 0.88;
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	width: 100%;
+	height: 100%;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 10px 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.nav li {
+	width: 100%;
+	height: 40px;
+	max-height: 40px;
+	padding: 0px;
+	border-bottom: solid white 1px;
+	text-align: center;
+}
+
+#r_body {
+	color: white;
+	background-color: black;
+	opacity: 0.88;
+	position: absolute;
+	top: 45px;
+	left: 300px;
+	max-height: 87%;
+	max-width: 73%;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	overflow-y: scroll;
+}
+
+#r_banner {
+	color: white;
+	font-family: Arial, sans-serif;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px 10px;
+	position: absolute;
+	top: 40%;
+	left:45%;
+	text-align: center;
+}
+
+#r_heading { text-align: center; }
+
+#r_infobox {
+	margin-left: 10px;
+	padding: 7px;
+	color: black;
+	background-color: #b3b3b3;
+	width: 250px;
+	float: right;
+}
+
+#r_infobox ul { 
+	list-style: none; 
+	margin: 0px;
+	padding: 0px;
+}
+	
+#r_infobox li {
+	margin: 4px 7px;
+	padding: 0px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+.photostream_big li, .photostream_big ul, .photostream ul, .photostream_big, .photostream_big img {
+	margin: 0px;
+	padding: 0px;
+}
+
+.photostream ul, .photostream_big ul {
+	list-style: none;
+}
+
+.photostream {
+/* small photos */
+}
+
+.photostream img {
+	max-height: 100px;
+	max-width: 100px;
+}
+
+.photostream li {
+	height: 100px;
+	width: 100px;
+	max-height: 100px;
+	max-width: 100px;
+	margin: 0px 10px;
+	padding: 0px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
+
+.photostream_big {
+	height: 100%;
+	width: 100%; 
+}
+
+.photostream_big li {
+	display: none;
+	text-align: center;
+	background-color: black;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	height: 96%;
+	width: 100%;	
+	opacity: .99;
+}
+
+.photostream_big li img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#photostream_close {
+	background-color: black;	
+	color: white;
+	padding: 5px;
+	margin: 0px;
+	font-family: Arial, sans-serif;
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	display: none;
+}
+
+#blog_bg {
+	background: url("http://i12.photobucket.com/albums/a217/awelsh7/20150805_121208_zps2hruufnl.jpg") no-repeat center center fixed;
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0px;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
